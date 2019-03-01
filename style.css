@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h2{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#header{
+	background-color: rgb(196,236,246);
+	height: 80px;
+	text-align: center;
+	padding-top: 30px;
+	font-family: "Roboto", san-serif;
+}
+#main{
+	font-family: "Lato",san-serif;
+	text-align: center;
+	padding: 15px;
+	font-size: 17px;
+}
+#aboutme{
+	background-color: rgb(121,200,195);
+	font-family: "Roboto", san-serif;
+	height: 150px;
+	padding: 10px;
+}
+#footer{
+	background-color: rgb(99,162,206);
+	padding: bottom;
+	height: 54px;
+}
+.image{
+	margin: 5px;
+	display: inline-block;
+	width: 200px;
+	background-color:  rgb(121,200,195);
+}
+.image:hover{
+	background-color:rgb(99,162,206);
+}
+
+.string{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.vocabluary{
+	position: relative;
+	background-color: rgb(121,200,195);
+	width: 200px;
+	margin: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+}
+.hidden{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top:0;
+	right:0;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgb(99,162,206);
+	display: none;
+}
+.vocabluary:hover .hidden{
+	display: block;
+}
